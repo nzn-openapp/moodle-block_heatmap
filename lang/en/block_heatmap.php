@@ -45,6 +45,7 @@ $string['nologreaderenabled'] = 'No usable log reader is enabled.';
 $string['nologentries'] = 'No user participation was found.';
 $string['notstarted'] = 'No activity shown as the course has not started yet.';
 $string['pluginname'] = 'Heatmap';
+$string['privacy:metadata'] = 'The Heatmap block only shows data about courses and does not store any data itself.';
 $string['sincecoursestart'] = '(Since course start date)';
 $string['showbackground'] = 'Show both background colouring only';
 $string['showboth'] = 'Show both background and count icons';
