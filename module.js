@@ -43,7 +43,10 @@ M.block_heatmap = {
                     info += '&nbsp;<span class="block_heatmap_users block_heatmap_icon_' + weight + '"">';
                     info += this.config[i].distinctusers;
                     info += '</span></div>';
-                    module.innerHTML = module.innerHTML + info;
+                    let wrapper = document.createElement('div');
+                    wrapper.innerHTML = info;
+                    let infodiv = wrapper.firstChild;
+                    module.appendChild(infodiv);
                 }
             }
         }
